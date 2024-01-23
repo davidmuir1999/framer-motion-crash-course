@@ -4,6 +4,7 @@ import BasicsOfMotion from './Components/BasicsOfMotion';
 import Gestures from './Components/Gestures';
 import AnimationControls from './Components/AnimationControls';
 import ViewBasedAnimation from './Components/ViewBasedAnimation';
+import ScrollAnimations from './Components/ScrollAnimation';
 import '../src/index.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
     {/* <BasicsOfMotion/> */}
     {/* <Gestures/> */}
     {/* <AnimationControls/> */}
-    <ViewBasedAnimation/>
+    {/* <ViewBasedAnimation/> */}
+    {/* <ScrollAnimations/> */}
   </React.StrictMode>
 );
